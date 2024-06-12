@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "rangeStrategy": "bump",
+  "semanticCommits": "enabled",
+  "extends": [
+    "config:base",
+    "group:allNonMajor",
+    ":semanticCommitType(build)"
+  ],
+  "timezone": "Europe/Paris",
+  "ignoreDeps": ["eslint"]
+}
